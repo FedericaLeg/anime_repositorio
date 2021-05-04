@@ -169,12 +169,6 @@ header {
       font-family: 'Playfair Display', serif;
       padding-top: 1%;
       margin-left: 0.5%; }
-    .contenido__reparto p {
-      display: inline;
-      color: whitesmoke;
-      font-size: 1em;
-      padding: 4%;
-      font-family: 'Tajawal', sans-serif; }
     .contenido__reparto ul {
       font-family: 'Tajawal', sans-serif;
       font-size: 1em;
@@ -184,7 +178,6 @@ header {
     .contenido__reparto li {
       font-family: 'Tajawal', sans-serif;
       font-size: 100%;
-      padding-left: 5.5%;
       padding-top: 1%;
       padding-right: 3%;
       color: whitesmoke; }
@@ -197,11 +190,6 @@ header {
       padding-top: 3%;
       color: whitesmoke;
       margin-left: 0.5%; }
-    .contenido__musica p {
-      color: whitesmoke;
-      font-size: 1em;
-      padding: 4%;
-      font-family: 'Tajawal', sans-serif; }
     .contenido__musica ul {
       color: whitesmoke;
       font-family: 'Tajawal', sans-serif;
@@ -368,31 +356,37 @@ form {
       cursor: -moz-grab; }
     #personajes img:hover {
       width: 33%; }
-  #imagenes {
+  .row {
+    margin-right: 0%; }
+  .col {
+    padding-top: 14%;
+    width: 98%;
+    margin: 2%; }
+  .imagenes {
     display: flex;
     flex-direction: column; }
-    #imagenes__titulo {
+    .imagenes__titulo {
       color: whitesmoke;
-      margin-left: 6%;
+      margin-left: 1%;
       margin-top: 3%;
       font-style: normal;
       font-family: 'DM Serif Display', serif; }
-    #imagenes__primera {
+    .imagenes__primera {
       width: 100%;
       margin-bottom: 2%; }
-    #imagenes__cuarta {
+    .imagenes__cuarta {
       width: 100%;
       margin-bottom: 2%; }
-    #imagenes__quinta {
+    .imagenes__quinta {
       width: 100%;
       margin-bottom: 2%; }
-    #imagenes__segunda {
+    .imagenes__segunda {
       width: 100%;
       margin-bottom: 2%; }
-    #imagenes__tercera {
+    .imagenes__tercera {
       width: 100%;
       margin-bottom: 2%; }
-    #imagenes__sexta {
+    .imagenes__sexta {
       width: 100%;
       margin-bottom: 25%; }
   .contacto h1 {
@@ -408,56 +402,36 @@ form {
     margin-bottom: -4%; }
   #formContact {
     width: 90%; }
-  #container {
+  .container {
     display: none;
     overflow: hidden; }
-  #contenido {
-    background-color: #000000;
-    width: 98%; }
-    #contenido h2 {
-      font-size: 1.5em;
-      padding-left: 3%;
-      font-family: 'Playfair Display', serif;
-      color: whitesmoke; }
-    #contenido p {
-      display: inline;
-      text-align: justify;
-      font-size: 1em;
-      font-family: 'Tajawal', sans-serif;
-      color: whitesmoke; }
-    #contenido ul {
-      font-family: 'Tajawal', sans-serif;
-      font-size: 1em;
-      padding-left: 6.5%;
+  .contenido__anime {
+    width: 90%;
+    padding-top: 8%;
+    margin-left: 2%;
+    margin-bottom: 8%; }
+  .contenido__reparto {
+    margin-bottom: 8%;
+    margin-left: 2%; }
+    .contenido__reparto ul {
+      margin-left: 6%; }
+    .contenido__reparto li {
       padding-top: 1%;
-      color: whitesmoke; }
-    #contenido .noLista {
-      list-style: none !important;
-      padding-left: 1.5% !important; }
-    #contenido li {
-      font-family: 'Tajawal', sans-serif;
-      font-size: 100%;
-      padding-left: 5.5%;
-      padding-top: 1%;
-      color: whitesmoke;
       padding-right: 3%; }
-    #contenido__anime {
-      padding-top: 8%;
-      margin-left: 2%;
-      margin-bottom: 8%; }
-    #contenido__reparto {
-      margin-bottom: 8%; }
-    #contenido__musica {
-      padding-bottom: 35%; }
-  footer {
+  .contenido__musica {
+    width: 90%;
+    padding-top: 8%;
+    margin-left: 2%;
+    padding-bottom: 35%; }
+  .footer {
     height: 10rem;
     background-image: linear-gradient(#FFCA1C, #ffdf75);
     padding-top: 4%;
     display: flex;
     flex-direction: column; }
-    footer__info {
+    .footer__info {
       padding-left: 5%; }
-    footer__iconos {
+    .footer__iconos {
       flex-direction: row;
       justify-content: space-around;
       float: right;

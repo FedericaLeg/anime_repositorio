@@ -195,13 +195,6 @@ header{
             padding-top: 1%;
             margin-left: 0.5%;
         }
-        p { 
-            display: inline;
-            color: whitesmoke;
-            font-size: 1em;
-            padding: 4%;
-            font-family: 'Tajawal', sans-serif;
-        }
         ul {
             font-family: 'Tajawal', sans-serif;
             font-size: 1em;    
@@ -212,7 +205,6 @@ header{
         li{
             font-family: 'Tajawal', sans-serif;
             font-size: 100%;    
-            padding-left: 5.5%;
             padding-top: 1%;
             padding-right: 3%;
             color: whitesmoke;
@@ -227,12 +219,6 @@ header{
             padding-top: 3%;
             color: whitesmoke;
             margin-left: 0.5%;
-        }
-        p { 
-            color: whitesmoke;
-            font-size: 1em;
-            padding: 4%;
-            font-family: 'Tajawal', sans-serif;
         }
         ul {
             color: whitesmoke;
@@ -437,13 +423,23 @@ form{
             width: 33%;
         }
     }
+    
+    .row{
+        margin-right: 0%;
+    }
 
-    #imagenes{
+    .col{
+        padding-top: 14%;
+        width: 98%;
+        margin: 2%;
+    }
+
+    .imagenes{
         display: flex;
         flex-direction: column;
         &__titulo {
             color: whitesmoke;
-            margin-left: 6%;
+            margin-left: 1%;
             margin-top: 3%;
             font-style: normal;
             font-family: 'DM Serif Display', serif;
@@ -478,7 +474,6 @@ form{
             width: 100%;
             margin-bottom: 25%;
         }
-    
     }
     
     .contacto{
@@ -502,60 +497,38 @@ form{
         width: 90%;
     }
     
-    #container{
+    .container{
         display: none;
         overflow: hidden;
     }
     
-    #contenido {
-        background-color: #000000;
-        width: 98%;
-        h2 { 
-            font-size: 1.5em;
-            padding-left: 3%;
-            font-family: 'Playfair Display', serif;
-            color: whitesmoke;
-        }
-        p { 
-            display: inline;
-            text-align: justify;
-            font-size: 1em;
-            font-family: 'Tajawal', sans-serif;
-            color: whitesmoke;
-        }
-        ul {
-            font-family: 'Tajawal', sans-serif;
-            font-size: 1em;    
-            padding-left: 6.5%;
-            padding-top: 1%;
-            color: whitesmoke;
-        }
-        .noLista {
-            list-style: none !important;
-            padding-left: 1.5% !important;
-        }
-        li{
-            font-family: 'Tajawal', sans-serif;
-            font-size: 100%;    
-            padding-left: 5.5%;
-            padding-top: 1%;
-            color: whitesmoke;
-            padding-right: 3%;
-        }
+    .contenido {
         &__anime{
+            width: 90%;
             padding-top: 8%;
             margin-left: 2%;
             margin-bottom: 8%;
         }
         &__reparto{
             margin-bottom: 8%;
+            margin-left: 2%;
+            ul {
+               margin-left: 6%;
+            }
+            li{
+                padding-top: 1%;
+                padding-right: 3%;
+            }  
         }
         &__musica{
+            width: 90%;
+            padding-top: 8%;
+            margin-left: 2%;
             padding-bottom: 35%;
         }
     }
 
-    footer {
+    .footer {
         height: 10rem;
         background-image: linear-gradient(#FFCA1C, #ffdf75);
         padding-top: 4%;
