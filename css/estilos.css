@@ -14,30 +14,85 @@ header {
     margin: auto;
     width: 60%; }
 
+.temaManga {
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #FFCA1C; }
+  .temaManga h2 {
+    text-shadow: -3px 3px #940c178f;
+    color: #000000;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    transform: skewX(7deg);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-bottom: -100%;
+    text-align: center;
+    margin-top: 1%;
+    padding: 3%;
+    margin-left: 16%; }
+  .temaManga p {
+    padding: 5%;
+    font-family: 'Tajawal', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.1em;
+    grid-column-start: 2;
+    grid-column-end: 2; }
+
 .manga h1 {
-  color: whitesmoke;
   font-size: 1.5em;
-  font-family: 'DM Serif Display', serif;
-  padding-bottom: 2%;
-  margin-left: 3%; }
+  color: whitesmoke;
+  padding-left: 3%;
+  font-family: 'Playfair Display', serif;
+  padding-top: 4%;
+  margin-left: 0.5%; }
+
+.manga h2 {
+  font-size: 1.5em;
+  color: whitesmoke;
+  padding-left: 3%;
+  font-family: 'Playfair Display', serif;
+  margin-left: 0.5%; }
 
 .manga p {
   color: whitesmoke;
+  font-size: 1em;
+  padding: 2%;
   font-family: 'Tajawal', sans-serif;
-  margin-bottom: 0; }
+  margin-left: 1%; }
+
+#imgManga {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  grid-template-rows: 6rem auto auto auto; }
+  #imgManga__manga1 {
+    width: 30%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1; }
+  #imgManga__manga3 {
+    width: 40%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2; }
 
 .carousel-inner {
   padding-top: 5%;
   margin-bottom: 15%;
   cursor: grabbing; }
 
-#tema {
+.tema {
   margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 30% 70%;
   background-color: #FFCA1C;
   padding: 4%; }
-  #tema h2 {
+  .tema h2 {
     text-shadow: -5px 5px #940c178f;
     color: #000000;
     font-family: 'DM Serif Display', serif;
@@ -48,7 +103,7 @@ header {
     margin-bottom: -100%;
     text-align: center;
     margin-top: 1%; }
-  #tema p {
+  .tema p {
     font-family: 'Tajawal', sans-serif;
     text-align: justify;
     font-weight: bold;
@@ -90,6 +145,7 @@ header {
     float: right;
     padding-top: 2%;
     width: 30%;
+    margin-right: 1%;
     margin-bottom: 1rem; }
     .container__cine img {
       margin-left: 4%;
@@ -127,7 +183,8 @@ header {
       text-align: center;
       width: 96%;
       margin-left: 4%;
-      padding: 0%; }
+      padding-left: 0%;
+      margin-bottom: 2%; }
     .container__datos__titulo {
       width: 100%;
       font-family: 'Times New Roman', Times, serif;
@@ -137,8 +194,8 @@ header {
       background-color: #f5ce50;
       border-radius: 2%;
       box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.2); }
-      .container__datos__titulo li {
-        font-family: 'Times New Roman';
+      .container__datos__titulo__content {
+        padding-top: 5.2%;
         text-align: center; }
 
 .contenido {
@@ -320,16 +377,31 @@ form {
     padding-right: 4%; }
 
 @media screen and (max-width: 600px) {
-  #tema {
+  .tema {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column; }
-    #tema h2 {
+    .tema h2 {
       font-size: 2rem;
       text-align: center;
       margin-bottom: 4%; }
-    #tema p {
+    .tema p {
+      font-family: 'Tajawal', sans-serif;
+      color: black;
+      text-align: justify;
+      font-weight: bold;
+      font-size: 1rem; }
+  .temaManga {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .temaManga h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 4%; }
+    .temaManga p {
       font-family: 'Tajawal', sans-serif;
       color: black;
       text-align: justify;
