@@ -28,12 +28,11 @@ header {
     transform: skewX(7deg);
     grid-column-start: 1;
     grid-column-end: 2;
-    margin-bottom: -100%;
     text-align: center;
-    margin-top: 1%;
-    padding: 3%;
-    margin-left: 16%; }
+    margin-top: 7%;
+    margin-left: 12%; }
   .temaManga p {
+    color: #000000;
     padding: 5%;
     font-family: 'Tajawal', sans-serif;
     text-align: justify;
@@ -83,31 +82,32 @@ header {
 
 .carousel-inner {
   padding-top: 5%;
-  margin-bottom: 15%;
-  cursor: grabbing; }
+  margin-bottom: 15%; }
 
 .tema {
   margin-bottom: 2rem;
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 40% 60%;
   background-color: #FFCA1C;
-  padding: 4%; }
+  padding: 3%; }
   .tema h2 {
     text-shadow: -5px 5px #940c178f;
     color: #000000;
     font-family: 'DM Serif Display', serif;
     font-size: 3em;
+    margin: auto;
     transform: skewX(12deg);
     grid-column-start: 1;
     grid-column-end: 2;
-    margin-bottom: -100%;
-    text-align: center;
-    margin-top: 1%; }
+    text-align: center; }
   .tema p {
+    color: #000000;
     font-family: 'Tajawal', sans-serif;
     text-align: justify;
     font-weight: bold;
     font-size: 1.1em;
+    margin-bottom: 1%;
+    margin-bottom: 0;
     grid-column-start: 2;
     grid-column-end: 2; }
 
@@ -126,6 +126,7 @@ header {
     border-top-right-radius: 3%;
     color: black; }
   #personajes img {
+    cursor: grab;
     width: 13%;
     display: inline;
     margin-left: 5.4%;
@@ -198,6 +199,9 @@ header {
         padding-top: 5.2%;
         text-align: center; }
 
+ul {
+  margin-bottom: 0%; }
+
 .contenido {
   display: inline;
   background-color: #000000;
@@ -239,6 +243,7 @@ header {
       padding-right: 3%;
       color: whitesmoke; }
   .contenido__musica {
+    padding-bottom: 10%;
     width: 70%; }
     .contenido__musica h2 {
       font-size: 1.5em;
@@ -398,9 +403,12 @@ form {
     justify-content: center;
     flex-direction: column; }
     .temaManga h2 {
-      font-size: 2rem;
+      width: 98%;
+      padding: 3%;
+      font-size: 2.2rem;
       text-align: center;
-      margin-bottom: 4%; }
+      margin-bottom: 1%;
+      margin: auto; }
     .temaManga p {
       font-family: 'Tajawal', sans-serif;
       color: black;
