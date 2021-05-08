@@ -29,7 +29,7 @@ header {
     grid-column-start: 1;
     grid-column-end: 2;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
     margin-left: 12%; }
   .temaManga p {
     color: #000000;
@@ -110,6 +110,49 @@ header {
     margin-bottom: 0;
     grid-column-start: 2;
     grid-column-end: 2; }
+
+.margenBordes {
+  padding-bottom: 10%; }
+
+.contenedorBordes {
+  width: 98%;
+  border-color: whitesmoke;
+  border-width: thin;
+  border-style: inset;
+  margin: auto;
+  margin-top: 6%; }
+
+.mangaTitulos h3 {
+  color: #000000;
+  padding: 1%;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-family: 'DM Serif Display', serif;
+  margin-bottom: 3%;
+  background-color: #FFCA1C; }
+
+#bocetosAutor_mangaUno {
+  width: 30%;
+  padding: 2%; }
+
+#bocetosAutor_mangaDos {
+  width: 28%;
+  padding: 1%; }
+
+#bocetosAutor_mangaTres {
+  width: 18%;
+  padding: 1%; }
+
+#bocetosAutor_mangaCuatro {
+  width: 21%;
+  padding: 2%; }
+
+#bocetosAutor_mangaCinco {
+  width: 60%;
+  padding: 2%; }
+
+#bocetosAutor_mangaSeis {
+  width: 38%; }
 
 #personajes {
   margin-top: 20%;
@@ -408,6 +451,7 @@ form {
       font-size: 2.2rem;
       text-align: center;
       margin-bottom: 1%;
+      transform: skewX(4deg);
       margin: auto; }
     .temaManga p {
       font-family: 'Tajawal', sans-serif;
@@ -469,6 +513,24 @@ form {
     .imagenes__sexta {
       width: 100%;
       margin-bottom: 25%; }
+  #bocetosAutor_mangaUno {
+    width: 45%;
+    padding: 2%; }
+  #bocetosAutor_mangaDos {
+    width: 50%; }
+  #bocetosAutor_mangaTres {
+    width: 45%;
+    padding: 2%;
+    padding-left: 4%; }
+  #bocetosAutor_mangaCuatro {
+    width: 48%;
+    padding: 2%;
+    padding-left: 4%; }
+  #bocetosAutor_mangaCinco {
+    width: 99%;
+    padding: 3%; }
+  #bocetosAutor_mangaSeis {
+    display: none; }
   .contacto h1 {
     color: whitesmoke;
     font-family: 'Times New Roman';

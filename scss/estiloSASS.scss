@@ -31,7 +31,7 @@ header{
         grid-column-start: 1;
         grid-column-end: 2;
         text-align: center;
-        margin-top: 7%;
+        margin-top: 10%;
         margin-left: 12%;
     }
     p {
@@ -125,6 +125,59 @@ header{
         grid-column-end: 2;
     }
 }
+
+.margenBordes{
+    padding-bottom: 10%;
+}
+
+.contenedorBordes{
+    width: 98%;
+    border-color: whitesmoke;
+    border-width: thin;
+    border-style: inset;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.mangaTitulos{
+    h3{
+        color: #000000;
+        padding: 1%;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-family: 'DM Serif Display', serif;
+        margin-bottom: 3%;
+        background-color: #FFCA1C;
+    }
+}
+
+#bocetosAutor{
+    &_mangaUno{
+        width: 30%;
+        padding: 2%;
+    }
+    &_mangaDos{
+        width: 28%;
+        padding: 1%;
+    }
+    &_mangaTres{
+        width: 18%;
+        padding: 1%;
+    }
+    &_mangaCuatro{
+        width: 21%;
+        padding: 2%;
+    }
+    &_mangaCinco{
+        width: 60%;
+        padding: 2%;
+    }
+    &_mangaSeis{
+        width: 38%;
+    }
+}
+
+
 
 #personajes {
     margin-top: 20%;
@@ -478,6 +531,7 @@ form{
             font-size: 2.2rem;
             text-align: center;
             margin-bottom: 1%;
+            transform: skewX(4deg);
             margin: auto;
         }
         p {
@@ -559,13 +613,39 @@ form{
             margin-bottom: 2%;
         }
         
-        
         &__sexta { 
             width: 100%;
             margin-bottom: 25%;
         }
     }
-    
+
+    #bocetosAutor{
+        &_mangaUno{
+            width: 45%;
+            padding: 2%;
+        }
+        &_mangaDos{
+            width: 50%;
+        }
+        &_mangaTres{
+            width: 45%;
+            padding: 2%;
+            padding-left: 4%;
+        }
+        &_mangaCuatro{
+            width: 48%;
+            padding: 2%;
+            padding-left: 4%;
+        }
+        &_mangaCinco{
+            width: 99%;
+            padding: 3%;
+        }
+        &_mangaSeis{
+          display: none;
+        }
+    }
+
     .contacto{
         h1 {
             color: whitesmoke;
