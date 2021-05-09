@@ -447,10 +447,6 @@ ul{
     }
 }
 
-.col{
-    padding-top: 8%;
-}
-
 form{
     color: whitesmoke;
     padding-bottom: 15%;
@@ -490,7 +486,7 @@ form{
             color: black;
             text-align: left;
             font-size: 0.87em;
-            margin-bottom: -5%;
+            margin-bottom: 5%;
         }
     }    
     &__iconos{
@@ -653,13 +649,13 @@ form{
             font-style: normal;
             font-size: 1.8em;
             padding-top: 5%;
-            padding-left: 2%;
+            margin-left: 5%;
         }
         
         p{
             font-size: 1.1em;
-            padding-left: 2%;
-            margin-bottom: -4%;
+            padding-top: 1.5%;
+            margin-left: 5%;
         }
     } 
 
@@ -706,6 +702,13 @@ form{
         flex-direction: column;
         &__info{
             padding-left: 5%;
+            h4 { 
+                font-family: 'Times New Roman';
+                color: black;
+                text-align: left;
+                font-size: 0.87em;
+                margin-bottom: 5%;
+            }
         }
         &__iconos{
             flex-direction: row;
