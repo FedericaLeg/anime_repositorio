@@ -15,116 +15,104 @@
     <meta name="keywords" content="boku, hero, manga, anime, superheroes, heroes, academia, villanos">
 </head>
 <body>
-    <header>
-           <img src="img/Logo.png" alt="">
-    </header>
-    <nav class="navbar navbar-expand-warning navbar-light bg-warning">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="anime.html">Anime</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="manga.html">Manga</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="personajes.html">Personajes</a>
-              </li> <li class="nav-item">
-                <a class="nav-link" href="galeria.html">Galeria</a>
-              </li> <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
+  <header>
+          <img src="img/Logo.png" alt="">
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="anime.html">Anime</a>
+          <a class="nav-link active" aria-current="page" href="manga.html">Manga</a>
+          <a class="nav-link active" aria-current="page" href="personajes.html">Personajes</a>
+          <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+          <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="todo">
+      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/Anime1.jpg" class="d-block w-100" alt="..."> 
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/personajes1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Galeria.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-      </nav>
-    <div id="todo">
-        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section>
+          <div class="tema">
+              <h2>¿De qué se trata My Hero Academia?</h2>
+              <p>My Hero Academia se sitúa en un mundo en el cual el 80% de la 
+                  población mundial ha desarrollado superpoderes. Estos poderes comienzan
+                  a aparecer a los 4 años de edad de cada individuo y cada uno desarrolla
+                  características diferentes. Debido a esto, han aparecido numerosos
+                  superhéroes y supervillanos. <br>El protagonista, Izuku Midoriya, pertenece
+                  a ese 20% de la población que no cuenta con superpoderes pero su gran sueño es 
+                  estudiar en la academia U.A y convertirse en un héroe como su ídolo All Might. 
+                  Pero, ¿Qué pasará cuando un día se lo encuentre? ¿Su vida volverá a ser la misma? </p>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-             <img src="img/Anime1.jpg" class="d-block w-100" alt="..."> 
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="img/personajes1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Galeria.jpg" class="d-block w-100" alt="...">
-            </div>
+      </section>
+      <section>
+          <div id="personajes">
+              <h2>Personajes Principales</h2>
+              <a href="personajes.html#izukuMidoriya"><img src="img/MidoriyaPortada.png" alt=""></a>
+              <a href="personajes.html#allMight"><img src="img/AllMightPortada.png" alt=""></a>
+              <a href="personajes.html#minaAshido"><img src="img/AshidoPortada.png" alt=""></a>
+              <a href="personajes.html#tsuyoAsui"><img src="img/AsuiPortada.png" alt=""></a>
+              <a href="personajes.html#katsukiBakungo"><img src="img/BakugoPortada.png" alt=""></a>
+              <a href="personajes.html#endeavor"><img src="img/EndeavorPortada.png" alt=""></a>
+              <a href="personajes.html#hawks"><img src="img/HawksPortada.png" alt=""></a>
+              <a href="personajes.html#tenyaIidia"><img src="img/IidaPortada.png" alt=""></a>
+              <a href="personajes.html#denkiKaminari"><img src="img/KaminariPortada.png" alt=""></a>
+              <a href="personajes.html#kyokaJiro"><img src="img/KyokaPortada.png" alt=""></a>
+              <a href="personajes.html#eijiroKirishima"><img src="img/KirishimaPortada.png" alt=""></a>
+              <a href="personajes.html#momoYaoyorozu"><img src="img/MomoPortada.png" alt=""></a>
+              <a href="personajes.html#eri"><img src="img/EriPortada.png" alt=""></a>
+              <a href="personajes.html#ochacoUraraka"><img src="img/UrarakaPortada.png" alt=""></a>
+              <a href="personajes.html#fumikageTokoyami"><img src="img/TokoyamiPortada.png" alt=""></a>
+              <a href="personajes.html#shotoTodoroki"><img src="img/TodorokiPortada.png" alt=""></a>
+              <a href="personajes.html#hitoshiShinso"><img src="img/ShinsoPortada.png" alt=""></a>
+              <a href="personajes.html#tomuraShigaraki"><img src="img/ShigarakiPortada.png" alt=""></a>
+              <a href="personajes.html#hantaSero"><img src="img/SeroPortada.png" alt=""></a>
+              <a href="personajes.html#minoruMineta"><img src="img/MinetaPortada.png" alt=""></a>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <section>
-            <div class="tema">
-                <h2>¿De qué se trata My Hero Academia?</h2>
-                <p>My Hero Academia se sitúa en un mundo en el cual el 80% de la 
-                    población mundial ha desarrollado superpoderes. Estos poderes comienzan
-                    a aparecer a los 4 años de edad de cada individuo y cada uno desarrolla
-                    características diferentes. Debido a esto, han aparecido numerosos
-                    superhéroes y supervillanos. <br>El protagonista, Izuku Midoriya, pertenece
-                    a ese 20% de la población que no cuenta con superpoderes pero su gran sueño es 
-                    estudiar en la academia U.A y convertirse en un héroe como su ídolo All Might. 
-                    Pero, ¿Qué pasará cuando un día se lo encuentre? ¿Su vida volverá a ser la misma? </p>
-            </div>
-        </section>
-        <section>
-            <div id="personajes">
-                <h2>Personajes Principales</h2>
-                <a href="personajes.html#izukuMidoriya"><img src="img/MidoriyaPortada.png" alt=""></a>
-                <a href="personajes.html#allMight"><img src="img/AllMightPortada.png" alt=""></a>
-                <a href="personajes.html#minaAshido"><img src="img/AshidoPortada.png" alt=""></a>
-                <a href="personajes.html#tsuyoAsui"><img src="img/AsuiPortada.png" alt=""></a>
-                <a href="personajes.html#katsukiBakungo"><img src="img/BakugoPortada.png" alt=""></a>
-                <a href="personajes.html#endeavor"><img src="img/EndeavorPortada.png" alt=""></a>
-                <a href="personajes.html#hawks"><img src="img/HawksPortada.png" alt=""></a>
-                <a href="personajes.html#tenyaIidia"><img src="img/IidaPortada.png" alt=""></a>
-                <a href="personajes.html#denkiKaminari"><img src="img/KaminariPortada.png" alt=""></a>
-                <a href="personajes.html#kyokaJiro"><img src="img/KyokaPortada.png" alt=""></a>
-                <a href="personajes.html#eijiroKirishima"><img src="img/KirishimaPortada.png" alt=""></a>
-                <a href="personajes.html#momoYaoyorozu"><img src="img/MomoPortada.png" alt=""></a>
-                <a href="personajes.html#eri"><img src="img/EriPortada.png" alt=""></a>
-                <a href="personajes.html#ochacoUraraka"><img src="img/UrarakaPortada.png" alt=""></a>
-                <a href="personajes.html#fumikageTokoyami"><img src="img/TokoyamiPortada.png" alt=""></a>
-                <a href="personajes.html#shotoTodoroki"><img src="img/TodorokiPortada.png" alt=""></a>
-                <a href="personajes.html#hitoshiShinso"><img src="img/ShinsoPortada.png" alt=""></a>
-                <a href="personajes.html#tomuraShigaraki"><img src="img/ShigarakiPortada.png" alt=""></a>
-                <a href="personajes.html#hantaSero"><img src="img/SeroPortada.png" alt=""></a>
-                <a href="personajes.html#minoruMineta"><img src="img/MinetaPortada.png" alt=""></a>
-            </div>
-        </section>
-    </div>
-    <div>
-        <footer class="footer">
-            <div class="footer__info">
-                <h4>Pagina sin fines de lucro ni comerciales</h4>
-                <h4>Copyright Federica Leguizamón©</h4>
-            </div>
-            <div class="footer__iconos">
-                <!--
-                <a id="unaImg" href="https://www.heroaca.com"></a><img src="img/icono (1).png" alt="Icono de My hero Academia">
-                <a id="dosImg" href="https://www.twitter.com/heroaca_anime"></a><img src="img/twitter.png" alt="Icono de Twitter" >
-                -->
-            </div>
-        </footer>
-    </div>
+      </section>
+  </div>
+  <div>
+    <footer class="footer">
+      <div class="footer__info">
+          <h4>Pagina sin fines de lucro ni comerciales</h4>
+          <h4>Copyright Federica Leguizamón©</h4>
+      </div>
+      <div class="footer__iconos">
+        <a href="https://www.heroaca.com"><img class="footer__iconos__unaImg" src="img/icono (1).png" alt="Icono de My hero Academia"></a>
+        <a href="https://www.twitter.com/heroaca_anime"><img class="footer__iconos__dosImg" src="img/gorjeo.png" alt="Icono de Twitter" ></a>
+      </div>
+    </footer>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
